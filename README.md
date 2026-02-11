@@ -22,7 +22,6 @@ hook-selector-agent/ </br>
 
 
 Setup and Running </br>
-```pip uninstall google-generativeai -y``` </br>
 ```pip install google-genai pandas openpyxl```</br>
 ```setx GEMINI_API_KEY "your_api_key_here"```</br>
 ```python hook_selector_agent.py```</br>
