@@ -13,18 +13,18 @@ For each content request:
    - All original hook metadata
 
 Structure : 
-hook-selector-agent/
-│
-├── hook_selector_agent.py
-├── TEMPLATE_HOOK.xlsx
-├── REQUEST_CONTEXT.csv
-└── README.md
+hook-selector-agent/ </br>
+│ </br>
+├── hook_selector_agent.py </br>
+├── TEMPLATE_HOOK.xlsx</br>
+├── REQUEST_CONTEXT.csv</br>
+└── README.md</br>
 
 
-Setup 
-```pip install google-generativeai pandas openpyxl```
-```setx GEMINI_API_KEY "your_api_key_here"```
-```python hook_selector_agent.py```
+Setup and Running </br>
+```pip install google-generativeai pandas openpyxl```</br>
+```setx GEMINI_API_KEY "your_api_key_here"```</br>
+```python hook_selector_agent.py```</br>
 
 
 NOTES : 
